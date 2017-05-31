@@ -16,6 +16,11 @@ Open the pom.xml file with the POM editor and add the following dependencies:
 * uimaFit: search for "uimafit core"
 * the Stanford CoreNLP annotators: search for "dkpro stanford"
 
+To add dependencies, click on the file pom.xml, then:
+   Dependencies > Filter > Add > Enter groupId, artifactId, ... (*)
+
+In the text box below, type the name of dependency
+
 ## A Runner class for the tokenizer
 
 Let's write together a Java program that runs a tokenizer on some text. We will need to:
