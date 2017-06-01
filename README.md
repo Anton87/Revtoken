@@ -1,10 +1,20 @@
 In this tutorial you will learn how to write an annotator using UIMA and uimaFit.
 
+
+
 # The ReverseTokenizer
 
 The ReverseTokenizer is a simple annotator that reads the tokens already contained in a CAS, reverses the text in the tokens and puts the result back into the CAS, by adding new annotations of a user defined type.
 
 For this reason, the annotator requires that Token annotations are present in the CAS, i.e. a Tokenizer has been applied to the text.
+
+## Prerequisites
+UIMA tooling for Eclipse
+
+UIMA tooling simplifies the development of typesystems and annotators in Eclipse.
+1. Install Eclipse EMF following these instructions: [Install additional Eclipse component: EMF](http://uima.apache.org/downloads/releaseDocs/2.2.0-incubating/docs/html/overview_and_setup/overview_and_setup.html#ugr.ovv.eclipse_setup.install_emf). 
+2. Install the UIMA visual tools (UIMA tooling), which can be found at this software update address: http://www.apache.org/dist/uima/eclipse-update-site/.
+
 
 ## Setting up the project
 
